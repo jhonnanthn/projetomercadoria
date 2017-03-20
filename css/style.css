@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body > .container{
+	padding-top: 80px;
+    max-width: 550px;
+	max-height: 50px;
+	font-family: Quicksand, sans-serif;
+}
+
+form .form-group > input {
+	background-color: #fff;
+	font-size: 14px;
+}
+
+form .form-control{
+	font-size: 12px;
+	text-transform:uppercase;
+}
+
+::-webkit-input-placeholder {
+	font-size: 11px;	
+}
+
+#button{
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding:0px;
+}
+
+#logotipo{
+	position:absolute;
+	padding: 23px;
+	top:50%;
+	left:45%;
+	margin-top:-50px;
+	margin-left:-50px;
+}
+
+.footer > div{
+	color: #000;
+    padding-top:550px;
+	width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+}
